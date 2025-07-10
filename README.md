@@ -41,8 +41,8 @@ To import this MySQL dump into your local MySQL server, follow these steps:
 2. **Configuration**:
 Update database credentials in CONNECTION.java
 
-con = DriverManager.getConnection(
+\con = DriverManager.getConnection(
     "jdbc:mysql://localhost:3306/MECHANIC",
     "your_username",
     "your_password"
-);
+);\
