@@ -27,10 +27,17 @@ A Java-based desktop application for managing a mechanic shop, including custome
 ## Installation
 
 1. **Database Setup**:
-   ```sql
-   CREATE DATABASE MECHANIC;
-   USE MECHANIC;
-   -- Run the SQL scripts from the /sql folder to create tables
+To import this MySQL dump into your local MySQL server, follow these steps:
+**Using MySQL Workbench**
+
+1. Open **MySQL Workbench**
+2. Connect to your local server
+3. Click **Server > Data Import**
+4. Choose **Import from Self-Contained File**
+   * Browse to the `.sql` file in "DATABASE" folder
+5. Select **Default Target Schema** (or create `mechanic`)
+6. Click **Start Import**
+
 2. **Configuration**:
 Update database credentials in CONNECTION.java
 
